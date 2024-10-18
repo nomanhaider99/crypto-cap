@@ -15,8 +15,8 @@ const Started = () => {
       </div>
       <div className='flex flex-col gap-2'>
         {
-          started.map((item) => (
-            <div className='flex items-center gap-4 px-4 bg-white/10 py-5 rounded-xl'>
+          started.map((item, index) => (
+            <div key={index} className='flex items-center gap-4 px-4 bg-white/10 py-5 rounded-xl'>
               <div className='p-2 flex justify-center items-center bg-white/20 rounded-full'>
                 {item.icon}
               </div>

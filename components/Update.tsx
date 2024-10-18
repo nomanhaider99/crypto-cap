@@ -16,8 +16,8 @@ const Update = () => {
         {/* Tabs */}
         <div className='flex flex-wrap gap-2 items-center'>
           {
-            tabs.map((tab) => (
-              <div className='px-2 py-2 bg-white/30 text-white text-xs font-light rounded cursor-pointer'>{tab.tabName}</div>
+            tabs.map((tab, index) => (
+              <div key={index} className='px-2 py-2 bg-white/30 text-white text-xs font-light rounded cursor-pointer'>{tab.tabName}</div>
             ))
           }
         </div>

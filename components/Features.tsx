@@ -14,8 +14,8 @@ const Features = () => {
         {/* Cards */}
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-4 mt-5'>
           {
-            features.map((feature) => (
-              <div className='bg-white/5 sm:h-[20vw]  w-full rounded-xl p-4 py-6 flex flex-col justify-between gap-2 shadow-lg'>
+            features.map((feature, index) => (
+              <div key={index} className='bg-white/5 sm:h-[20vw]  w-full rounded-xl p-4 py-6 flex flex-col justify-between gap-2 shadow-lg'>
                   <div className=''>
                     <div className='p-2 h-14 w-14 flex justify-center items-center bg-white/70 rounded-full'>
                       {feature.logo}
