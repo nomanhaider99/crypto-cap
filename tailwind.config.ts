@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        deepblue: '#150129',
+        deeppurple: '#300136',
+        seagreen: '#0fae96'
       },
     },
   },
