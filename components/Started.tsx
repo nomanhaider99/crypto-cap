@@ -10,7 +10,7 @@ const Started = () => {
         <p className='text-zinc-300 my-2 text-sm font-light mb-5'>Simple and easy way to start your investment <br /> in cryptocurrency</p>
         <Button
             text='Get Started'
-            className='py-4 sm:w-[10vw] w-full pl-7'
+            className='py-4 md:w-[10vw] sm:w-[20vw] w-full pl-7'
          />
       </div>
       <div className='flex flex-col gap-2'>

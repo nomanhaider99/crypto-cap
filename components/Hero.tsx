@@ -20,7 +20,7 @@ const Hero = () => {
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-between gap-4'>
                 {
                     trends.map((trend, index) => (
-                        <div key={index} className='p-4 py-6 shadow-lg w-full sm:w-[20vw] bg-white/10 rounded-xl flex flex-col gap-4'>
+                        <div key={index} className='p-4 py-6 shadow-lg w-full md:w-[20vw] bg-white/10 rounded-xl flex flex-col gap-4'>
                             <div className='flex items-center gap-2'>
                                 <div className='flex items-center gap-2'>
                                     {trend.icon}

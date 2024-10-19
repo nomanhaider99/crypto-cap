@@ -30,7 +30,7 @@ const Header = () => {
         <div className='text-white flex items-center gap-1 text-xs'><TbWorld /> EN <IoIosArrowDown /></div>
         <Button text='Login' />
       </div>
-      <div className='md:hidden block' onClick={toggleMenu}>
+      <div className='sm:hidden block' onClick={toggleMenu}>
         {isOpen ? <IoClose size={25} color='#fff' /> : <FiMenu size={25} color='#fff' />}
       </div>
 

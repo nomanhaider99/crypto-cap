@@ -31,7 +31,7 @@ const Learn = () => {
                       className='rounded-xl w-full h-auto'
                   />
                 </div>
-                <div className='w-full md:w-1/2 flex md:flex-row flex-col gap-2'>
+                <div className='w-full md:w-1/2 flex sm:flex-row flex-col gap-2'>
                     {
                       basics.map((item, index) => (
                         <div key={index} className='flex flex-col p-2 rounded-xl bg-deeppurple/30'>
@@ -55,7 +55,7 @@ const Learn = () => {
                 </div>
               </div>
               {/* Lower Images */}
-              <div className='flex md:flex-row flex-col gap-4'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:flex-row flex-col gap-4'>
               {
                     tips.map((item, index) => (
                       <div key={index} className='flex w-full md:w-[22.1vw] flex-col p-2 rounded-xl bg-deeppurple/30'>
