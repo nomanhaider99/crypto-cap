@@ -10,7 +10,7 @@ You can view the original Figma design [here](https://www.figma.com/design/hxqnz
 
 Check out the live demo of the website hosted on Vercel:
 
-[Live Demo](https://crypto-cap.vercel.app/)
+[Live Demo](https://crypto-cap-beta.vercel.app/)
 
 ## Features
 
