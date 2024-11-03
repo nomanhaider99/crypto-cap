@@ -38,7 +38,7 @@ const Header = () => {
         <div className='flex flex-col items-end p-5'>
           <IoClose size={25} color='#000' className='cursor-pointer' onClick={toggleMenu} />
         </div>
-        <div className='flex flex-col items-start bg-white h-full w-full p-5'>
+        <div className='flex flex-col items-start bg-white h-full w-full p-5 gap-12'>
           <Link href={"/"}><h4 className='cursor-pointer hover:text-seagreen transition-all'>Home</h4></Link>
           <Link href={"/learn"}><h4 className='cursor-pointer hover:text-seagreen transition-all'>Learn</h4></Link>
           <Link href={"/market"}><h4 className='cursor-pointer hover:text-seagreen transition-all'>Market</h4></Link>
